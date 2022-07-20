@@ -19,8 +19,11 @@ spec:
         image: annyat678/my-app-1.0:latest
         ports:
         - containerPort: 3000
-        
-        
+    spec:
+      type: LoadBalancer
+      externalIPs:
+          - 172.31.42.239
+
 ---
 
 apiVersion: v1
