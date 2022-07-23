@@ -30,8 +30,7 @@ spec:
   selector:
     app: nodeapp 
   type: LoadBalancer
-  externalIPs:
-          - 172.31.42.239
+ 
   ports:
   - protocol: TCP
     port: 5000
